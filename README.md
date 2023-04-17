@@ -18,6 +18,9 @@ Starter project template using Docker to build a Django app that serves React ap
 Simply start the docker container to start working:
 ```
 docker-compose up -d
+
+docker-compose run -u root --rm web python /code/manage.py migrate
+docker-compose run -u root --rm web python /code/manage.py createsuperuser
 ```
 
 You can then work as usual on your Django project.
