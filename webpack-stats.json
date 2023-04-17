@@ -1,0 +1,14 @@
+{
+  "status": "done",
+  "assets": {
+    "index-bundle.js": {
+      "name": "index-bundle.js",
+      "path": "/code/static/index-bundle.js"
+    }
+  },
+  "chunks": {
+    "main": [
+      "index-bundle.js"
+    ]
+  }
+}
